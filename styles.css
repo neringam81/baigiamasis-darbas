@@ -1,0 +1,221 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c1abab;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #d3c3b2;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.header__logo-img {
+    width: 100px;
+    height: auto;
+}
+
+.header__logo h1 {
+    flex: 1 1 calc(100% - 100px);
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.nav {
+    display: flex;
+   justify-content: center;
+    background-color: #dad743;
+}
+
+.nav a {
+    padding: 15px 20px;
+    margin: 0 5px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.nav div:hover {
+    background-color: #b6c213;
+}
+
+.section__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ebe1e1;
+    padding: 40px;
+    margin: 40px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section__info-img {
+    max-width: 350px;
+    height: auto;
+}
+
+.info__content {
+    max-width: 50%;
+}
+
+.info__message {
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background-color: #dad743;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #b6c213;
+}
+
+.section__services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 20px;
+    background-color: #fcfcfc;
+    border-radius: 10px;
+}
+
+.card__content {
+    background-color: #eeebeb;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    max-width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.card__content img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #cfbfbf;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+   
+    
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .header__logo h1 {
+        font-size: 24px;
+    }
+
+    .section__info {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section__info-img {
+        max-width: 100%;
+        margin: 20px 0;
+    }
+
+    .info__content {
+        max-width: 100%;
+    }
+
+    .nav {
+        flex-direction: column;
+    }
+
+    .nav div {
+        margin: 5px 0;
+    }
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.footer {
+    background-color: #f1f1f1; /* Pakeiskite spalvą pagal savo dizainą */
+    text-align: center;
+    padding: 1rem;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Užtikrina, kad kūnas būtų bent 100vh aukščio */
+}
+
+main {
+    flex: 1; /* Leidžia pagrindiniam turiniui užimti visą likusį aukštį */
+}
+
+.footer {
+    background-color: #f1f1f1; /* Pakeiskite spalvą pagal savo dizainą */
+    text-align: center;
+    padding: 1rem;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.header {
+    /* Jūsų header stiliai */
+}
+
+.footer {
+    background-color: #e0d4d4; /* Priklauso nuo jūsų dizaino */
+    text-align: center;
+    padding: 1rem;
+}
+
+
